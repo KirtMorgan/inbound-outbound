@@ -32,5 +32,5 @@ ALLOW
 Custom TCP Rule
 TCP (6)
 27017
-10.22.1.0/24
+10.22.1.0/24 
 ALLOW
