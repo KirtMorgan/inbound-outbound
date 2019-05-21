@@ -1,4 +1,4 @@
-# INBOUND & OUTBOUND for a Private Subnet
+# INBOUND & OUTBOUND rules for a Private Subnet
 
 - The private subnet should not be accessible to the user.
 - The private subnet is being used to store the database.
