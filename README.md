@@ -19,6 +19,13 @@ TCP (6),
 10.22.1.0/24,
 ALLOW
 
+### Denies all outbound IPv4 traffic
+Custom TCP Rule,
+all,
+all,
+0.0.0.0/0,
+DENY
+
 ## OUTBOUND Rules
 
 ### Allowing the Mongo database to request updates
@@ -34,6 +41,13 @@ TCP (6),
 27017,
 10.22.1.0/24,
 ALLOW
+
+### Denies all outbound IPv4 traffic
+Custom TCP Rule,
+all,
+all,
+0.0.0.0/0,
+DENY
 
 # Research
 
